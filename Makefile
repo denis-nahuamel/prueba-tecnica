@@ -14,4 +14,4 @@ init:
 
 test:
 	@echo "Ejecutando pruebas con PHPUnit..."
-	docker-compose exec $(PHP_CONTAINER) vendor/bin/phpunit
+	docker-compose exec $(PHP_CONTAINER) vendor/bin/phpunit test/Unit

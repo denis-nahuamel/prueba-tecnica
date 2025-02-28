@@ -40,5 +40,5 @@ make test
 ```
 Si no tienes make instalado, puedes ejecutar las pruebas manualmente dentro del contenedor PHP:
 ```bash
-docker-compose exec php vendor/bin/phpunit
+docker-compose exec php vendor/bin/phpunit test/Unit
 ```
